@@ -40,6 +40,3 @@ jobs:
         run: |        
           echo "MONGODB_USERNAME: ${{ env.MONGODB_USERNAME }}"
           echo "MONGODB_DB_NAME: ${{ env.MONGODB_DB_NAME }}"
-          echo "GITHUB_RUN_NUMBER: ${{ env.GITHUB_RUN_NUMBER }}"
-          echo "GITHUB_RUN_ID: ${{ env.GITHUB_RUN_ID }}"
-
